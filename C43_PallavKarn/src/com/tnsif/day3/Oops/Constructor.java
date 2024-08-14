@@ -11,6 +11,16 @@ public class Constructor {
     	System.out.println("Default Constructor"); 
      }
      
+     //Parameterized Constructor
+     //use this keyword
+     public Constructor(String ConstructorName,int ConstructorAge,String ConstructorDept) {
+     	System.out.println("Parameterized Constructor"); 
+     	this.name=ConstructorName;
+     	this.age=ConstructorAge;
+     	this.dept=ConstructorDept;
+      }
+     
+     
     public String getName() {
         return name;
     }
