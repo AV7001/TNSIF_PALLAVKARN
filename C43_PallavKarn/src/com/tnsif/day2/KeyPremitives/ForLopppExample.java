@@ -1,4 +1,4 @@
-package com.tnsif.day2;
+package com.tnsif.day2.KeyPremitives;
 public class ForLopppExample {
 	public static void main(String[] args) 
 	{	

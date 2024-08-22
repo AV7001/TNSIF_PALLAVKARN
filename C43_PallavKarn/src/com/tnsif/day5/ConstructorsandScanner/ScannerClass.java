@@ -1,4 +1,4 @@
-package com.tnsif.day5.Scanner;
+package com.tnsif.day5.ConstructorsandScanner;
 
 import java.util.Scanner;
 
