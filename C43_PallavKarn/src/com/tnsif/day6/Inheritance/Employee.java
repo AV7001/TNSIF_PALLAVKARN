@@ -19,7 +19,7 @@ public class Employee extends Person{
 	
 	
 	public Employee(String name, String city,int empId, float salary, String dept) {
-		super(name,city);
+		super();
 		this.empId = empId;
 		this.salary = salary;
 		this.dept = dept;
@@ -59,7 +59,7 @@ public class Employee extends Person{
 	@Override
 	public String toString() {
 		return "Employee [empId=" + empId + ", salary=" + salary + ", dept=" + dept + ", getName()=" + getName()
-				+ ", getCity()=" + getCity() + "]";
+				+ ", getCity()=" + getClass() + "]";
 	}
 	
 	
